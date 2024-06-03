@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { css } from "@emotion/css";
+	import { mainLayout } from "./styles";
 </script>
 
 <div class="app">
-	<main>
+	<main class={ mainLayout }>
 		<slot />
 	</main>
 </div>
