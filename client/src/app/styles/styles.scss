@@ -1,0 +1,40 @@
+@use "./fonts";
+
+@import "sanitize.css";
+@import "sanitize.css/forms.css";
+@import "sanitize.css/typography.css";
+
+:root {
+	--pure-white: #fff;
+	--cream-bg: #f2eae2;
+	--aurometal-saurus: #6c7289;
+	--deep-aquamarine: #3d8168;
+	--deep-aquamarine-hover: #1a4032;
+	--gunmetal: #1c232b;
+
+	--font-family: "Montserrat", sans-serif;
+	--second-family: "Fraunces", sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
