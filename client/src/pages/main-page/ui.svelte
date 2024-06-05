@@ -1,8 +1,10 @@
 <script lang="ts">
-	import { css } from "@emotion/css";
+	import { ProductPreviewCard } from "@entities/product";
+
+	import { mainPage } from "./styles";
 </script>
 
-<section>
+<section class={mainPage}>
+	<h1 class="visually-hidden">Product preview card component</h1>
+	<ProductPreviewCard />
 </section>
-
-// Page and Component
