@@ -14,6 +14,7 @@
 	} from "./styles";
 
 	import { Button } from "@shared/ui/button";
+	import { Icon } from "@shared/ui/icon";
 </script>
 
 <article class="{ productPreviewCard }">
@@ -29,6 +30,11 @@
 		<h2 class="{ productPreviewCardTitle }">Gabrielle Essence Eau De Parfum</h2>
 		<p class="{ productPreviewCardDescription }">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
 		<p class="{ productPreviewCardOriginalPrice }">$149.99<small class="{ productPreviewCardDiscountedPrice }">$169.99</small></p>
-		<Button>Add to Cart</Button>
+		<Button>
+			<span slot="icon">
+				<Icon iconType="cart" />
+			</span>
+			Add to Cart
+		</Button>
 	</div>
 </article>
