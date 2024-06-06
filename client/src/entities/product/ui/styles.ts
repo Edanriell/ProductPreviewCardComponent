@@ -17,10 +17,9 @@ export const productPreviewCardImage = css`
 	max-height: 240vw;
 	object-fit: cover;
 	@media (width >= 768px) {
-		width: 30rem;
 		max-width: 30rem;
-		height: 45rem;
-		max-height: 45rem;
+		height: 100%;
+		// max-height: 45rem;
 	}
 `;
 
@@ -38,10 +37,12 @@ export const productPreviewCardCategory = css`
 	font-size: 1.2rem;
 	letter-spacing: 0.42em;
 	color: var(--aurometal-saurus);
-	margin-bottom: 0.8rem;
+	// margin-bottom: 0.8rem;
+	margin-bottom: 1.2rem;
 	text-transform: uppercase;
 	@media (width >= 768px) {
-		margin-bottom: 1.6rem;
+		// margin-bottom: 1.6rem;
+		margin-bottom: 2rem;
 	}
 `;
 
@@ -51,9 +52,11 @@ export const productPreviewCardTitle = css`
 	font-size: 3.2rem;
 	line-height: 100%;
 	color: var(--gunmetal);
-	margin-bottom: 1.3rem;
+	// margin-bottom: 1.3rem;
+	margin-bottom: 1.6rem;
 	@media (width >= 768px) {
-		margin-bottom: 2.1rem;
+		// margin-bottom: 2.1rem;
+		margin-bottom: 2.4rem;
 	}
 `;
 
@@ -63,9 +66,11 @@ export const productPreviewCardDescription = css`
 	font-size: 1.4rem;
 	line-height: 164%;
 	color: var(--aurometal-saurus);
-	margin-bottom: 2rem;
+	// margin-bottom: 2rem;
+	margin-bottom: 2.4rem;
 	@media (width >= 768px) {
-		margin-bottom: 2.5rem;
+		// margin-bottom: 2.5rem;
+		margin-bottom: 2.9rem;
 	}
 `;
 
@@ -79,9 +84,11 @@ export const productPreviewCardOriginalPrice = css`
 	font-size: 3.2rem;
 	line-height: 100%;
 	color: var(--deep-aquamarine);
-	margin-bottom: 1.7rem;
+	// margin-bottom: 1.7rem;
+	margin-bottom: 2rem;
 	@media (width >= 768px) {
-		margin-bottom: 2.7rem;
+		// margin-bottom: 2.7rem;
+		margin-bottom: 3rem;
 	}
 `;
 
@@ -116,6 +123,3 @@ export const buttonText = css`
 	font-size: 1.4rem;
 	color: var(--pure-white);
 `;
-
-// Padding and margin is a little bit off
-// Need to fix
