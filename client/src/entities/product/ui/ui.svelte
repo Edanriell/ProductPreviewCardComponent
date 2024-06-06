@@ -19,8 +19,8 @@
 <article class="{ productPreviewCard }">
 	<div>
 		<picture>
-			<source type="image/jpeg" srcset="{productImage375}" media="(min-width: 375px)">
 			<source type="image/jpeg" srcset="{productImage768}" media="(min-width: 768px)">
+			<source type="image/jpeg" srcset="{productImage375}" media="(min-width: 375px)">
 			<img class="{ productPreviewCardImage }" src="{productImage375}" alt="Image of Gabrielle Essence Eau De Parfum">
 		</picture>
 	</div>
