@@ -7,16 +7,29 @@ export const productPreviewCard = css`
 	border-radius: 1rem;
 	margin: 0 1.6rem;
 	overflow: hidden;
+	@media (width >= 768px) {
+		flex-direction: row;
+	}
 `;
 
 export const productPreviewCardImage = css`
 	width: 100%;
-	max-height: 24rem;
+	max-height: 240vw;
 	object-fit: cover;
+	@media (width >= 768px) {
+		width: 30rem;
+		max-width: 30rem;
+		height: 45rem;
+		max-height: 45rem;
+	}
 `;
 
 export const productPreviewCardContent = css`
 	padding: 2.4rem;
+	@media (width >= 768px) {
+		padding: 3.2rem;
+		max-width: 30rem;
+	}
 `;
 
 export const productPreviewCardCategory = css`
@@ -27,6 +40,9 @@ export const productPreviewCardCategory = css`
 	color: var(--aurometal-saurus);
 	margin-bottom: 0.8rem;
 	text-transform: uppercase;
+	@media (width >= 768px) {
+		margin-bottom: 1.6rem;
+	}
 `;
 
 export const productPreviewCardTitle = css`
@@ -36,6 +52,9 @@ export const productPreviewCardTitle = css`
 	line-height: 100%;
 	color: var(--gunmetal);
 	margin-bottom: 1.3rem;
+	@media (width >= 768px) {
+		margin-bottom: 2.1rem;
+	}
 `;
 
 export const productPreviewCardDescription = css`
@@ -45,6 +64,9 @@ export const productPreviewCardDescription = css`
 	line-height: 164%;
 	color: var(--aurometal-saurus);
 	margin-bottom: 2rem;
+	@media (width >= 768px) {
+		margin-bottom: 2.5rem;
+	}
 `;
 
 export const productPreviewCardOriginalPrice = css`
@@ -58,6 +80,9 @@ export const productPreviewCardOriginalPrice = css`
 	line-height: 100%;
 	color: var(--deep-aquamarine);
 	margin-bottom: 1.7rem;
+	@media (width >= 768px) {
+		margin-bottom: 2.7rem;
+	}
 `;
 
 export const productPreviewCardDiscountedPrice = css`
@@ -91,3 +116,6 @@ export const buttonText = css`
 	font-size: 1.4rem;
 	color: var(--pure-white);
 `;
+
+// Padding and margin is a little bit off
+// Need to fix
