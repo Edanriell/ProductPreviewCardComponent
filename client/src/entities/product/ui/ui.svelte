@@ -14,7 +14,6 @@
 		button,
 		buttonText
 	} from "./styles";
-
 </script>
 
 <article class="{ productPreviewCard }">

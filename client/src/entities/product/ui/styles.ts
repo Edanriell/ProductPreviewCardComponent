@@ -12,6 +12,7 @@ export const productPreviewCard = css`
 export const productPreviewCardImage = css`
 	width: 100%;
 	max-height: 24rem;
+	object-fit: cover;
 `;
 
 export const productPreviewCardContent = css`
@@ -63,7 +64,7 @@ export const productPreviewCardDiscountedPrice = css`
 	font-family: var(--font-family), serif;
 	font-weight: 500;
 	font-size: 1.3rem;
-	line-height: 177%;
+	// line-height: 177%;
 	text-decoration: line-through;
 	color: var(--aurometal-saurus);
 `;
@@ -80,6 +81,8 @@ export const button = css`
 	border-radius: 0.8rem;
 	padding-top: 1.5rem;
 	padding-bottom: 1.6rem;
+	border: none;
+	cursor: pointer;
 `;
 
 export const buttonText = css`
