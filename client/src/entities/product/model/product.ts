@@ -1,4 +1,9 @@
 export type Product = {
+	image: {
+		sm: string;
+		md?: string;
+		lg?: string;
+	};
 	category: string;
 	name: string;
 	description: string;
@@ -6,5 +11,4 @@ export type Product = {
 		old: number;
 		new: number;
 	};
-	image: string;
 };
