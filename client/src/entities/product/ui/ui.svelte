@@ -9,9 +9,6 @@
 	import { getProductQuery } from "../api";
 	import { type Product } from "../model";
 
-	import productImage375 from "./assets/product-image-375.jpg";
-	import productImage768 from "./assets/product-image-768.jpg";
-
 	import {
 		productPreviewCard,
 		productPreviewCardImage,
@@ -42,18 +39,12 @@
 		</div>
 		{:else}
 		<div class={css`
-			border-radius: 0 0 3.2rem 3.2rem;
-			box-shadow: 0 30px 60px 0 rgba(61, 108, 236, 0.15);
-			z-index: 2;
-			position: relative;
 			width: 100%;
-			height: 34.694rem;
-			overflow: hidden;
+			max-height: 240vw;
 			@media (width >= 768px) {
-				width: 38.198rem;
-				height: 53.495rem;
-				border-radius: 3.2rem;
-				box-shadow: unset;
+				max-width: 30rem;
+				max-height: unset;
+				height: 45rem;
 			}
 		`}>
 			<Skeleton width="100%" height="100%" >
@@ -75,20 +66,94 @@
 			</Button>
 			{:else}
 			<div class={css`
-			border-radius: 0 0 3.2rem 3.2rem;
-			box-shadow: 0 30px 60px 0 rgba(61, 108, 236, 0.15);
-			z-index: 2;
-			position: relative;
-			width: 100%;
-			height: 34.694rem;
-			overflow: hidden;
-			@media (width >= 768px) {
-				width: 38.198rem;
-				height: 53.495rem;
-				border-radius: 3.2rem;
-				box-shadow: unset;
-			}
-		`}>
+				height: 1.8rem;
+				margin-bottom: 1.2rem;
+				@media (width >= 768px) {
+					margin-bottom: 2rem;
+				}
+			`}>
+				<Skeleton width="100%" height="100%" >
+					<rect width="100%" height="100%"/>
+				</Skeleton>
+			</div>
+			<div class={css`
+				height: 3.2rem;
+				margin-bottom: 0.4rem;
+			`}>
+				<Skeleton width="100%" height="100%" >
+					<rect width="100%" height="100%"/>
+				</Skeleton>
+			</div>
+			<div class={css`
+				height: 3.2rem;
+				margin-bottom: 0.4rem;
+			`}>
+				<Skeleton width="100%" height="100%" >
+					<rect width="100%" height="100%"/>
+				</Skeleton>
+			</div>
+			<div class={css`
+				height: 3.2rem;
+				margin-bottom: 1.6rem;
+				@media (width >= 768px) {
+					margin-bottom: 2.4rem;
+				}
+			`}>
+				<Skeleton width="100%" height="100%" >
+					<rect width="100%" height="100%"/>
+				</Skeleton>
+			</div>
+			<div class={css`
+				height: 1.4rem;
+				margin-bottom: 0.4rem;
+			`}>
+				<Skeleton width="100%" height="100%" >
+					<rect width="100%" height="100%"/>
+				</Skeleton>
+			</div>
+			<div class={css`
+				height: 1.4rem;
+				margin-bottom: 0.4rem;
+			`}>
+				<Skeleton width="100%" height="100%" >
+					<rect width="100%" height="100%"/>
+				</Skeleton>
+			</div>
+			<div class={css`
+				height: 1.4rem;
+				margin-bottom: 0.4rem;
+			`}>
+				<Skeleton width="100%" height="100%" >
+					<rect width="100%" height="100%"/>
+				</Skeleton>
+			</div>
+			<div class={css`
+				height: 1.4rem;
+				margin-bottom: 2.4rem;
+				@media (width >= 768px) {
+					margin-bottom: 2.9rem;
+				}
+			`}>
+				<Skeleton width="100%" height="100%" >
+					<rect width="100%" height="100%"/>
+				</Skeleton>
+			</div>
+			<div class={css`
+				height: 3.2rem;
+				margin-bottom: 2rem;
+				@media (width >= 768px) {
+					margin-bottom: 3rem;
+				}
+			`}>
+				<Skeleton width="100%" height="100%" >
+					<rect width="100%" height="100%"/>
+				</Skeleton>
+			</div>
+			<div class={css`
+				height: 4.799rem;
+				border-radius: 0.8rem;
+				overflow: hidden;
+			`}>
 				<Skeleton width="100%" height="100%" >
 					<rect width="100%" height="100%"/>
 				</Skeleton>
